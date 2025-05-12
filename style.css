@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.344);
+}
+a{
+    text-decoration: none;
+}
+#main-body{
+    margin: 0% 0.8%;
+
+}
+
+#header{
+    background-color: rgb(255, 255, 255);
+    padding-top: 2px;
+    position: sticky;
+    width: 100%;
+    top: 1% ;
+    z-index: 1;
+    height: 7%;
+}
+.container{
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.col-1{
+    width: 60%;
+}
+.col-2{
+    width: 38%;
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.search{
+    width: 75%;
+    margin-left: 2%;
+}
+
+.search input[type="text"]{
+    width: 100%;
+    background-color: rgb(202, 235, 255);
+    border-color: transparent;
+    height: 35px;
+    background-image: url(https://img.icons8.com/?size=30&id=W0xu6u7K9A0F&format=png&color=000000);
+    padding-left: 8%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-position-x: 1%;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.col-2> ul> li{
+    display: inline-block;
+    width: 18%;
+    padding: 20px 5px;
+    font-weight: 400;
+    font: 1em sans-serif;
+    position: relative;
+}
+
+.col-2 > ul > li > a{
+    text-decoration: none;
+    columns: #000;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#section-1{
+    background-color: aliceblue;
+    margin-top: 10.9%;
+    padding: 1%;
+}
+
+#section-1 .product{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+#section-1 .product img{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+#section-1 h4{
+    color: #000;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+#banner{
+    margin-top: 10px;
+}
+
+#maha-sale .container{
+    margin: 0px;
+}
+
+#maha-sale .row .prod-img{
+display: inline-block;
+width: 33%;
+margin-left: 0.8px;
+margin-top: 5px;
+}
+
+#maha-sale .prod-img img{
+height: 300px;
+width: 100%;
+}
+
+#section-2{
+    background-color: aliceblue;
+    padding: 1% 0;
+    margin-bottom: 1%;
+}
+
+#section-2 h2{
+    margin-left: 0.5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #000;
+}
+
+#section-2 .product{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    margin: 2px;
+    border-radius: 2%;
+    padding-bottom: 10px;
+    position: relative;
+}
+#section-2 .product img{
+    height: 180px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.flipkart-footer {
+  background-color: #172337;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: nowrap;  
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #878787;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 2px 0;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-column p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
